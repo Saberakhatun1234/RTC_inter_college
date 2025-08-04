@@ -50,12 +50,12 @@
       <li class="group relative">
         <a href="about.php" class="px-4 py-2 hover:text-yellow-400">About</a>
         <ul class="absolute hidden group-hover:block bg-[#003366] mt-2 min-w-[180px] rounded shadow-lg text-sm z-50">
-          <li><a href="about.php#vision&mission" class="block px-4 py-2 hover:bg-[#005599]">Vision & Mission</a></li>
+          <li><a href="about.php#vision&mission" class="block px-4 py-2 hover:bg-[#005599] ">Vision & Mission</a></li>
           <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">History</a></li>
           <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">Management</a></li>
           <li><a href="about.php#infrastructure" class="block px-4 py-2 hover:bg-[#005599]">Infrastructure</a></li>
-          <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">Facilities</a></li>
-          <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">Location</a></li>
+          <li><a href="about.php#facilities" class="block px-4 py-2 hover:bg-[#005599]">Facilities</a></li>
+          <li><a href="about.php#location" class="block px-4 py-2 hover:bg-[#005599]">Location</a></li>
         </ul>
 </li>
       <li class="group relative">
@@ -70,14 +70,14 @@
         </ul>
       </li>
         <li class="group relative">
-        <a href="syllabus.php" class="px-4 py-2 hover:text-yellow-400">Faculty Members</a>
+        <a href="faculties.php" class="px-4 py-2 hover:text-yellow-400">Faculty Members</a>
         <ul
           class="absolute hidden group-hover:block bg-[#003366] mt-2 min-w-[180px] rounded shadow-lg text-sm z-50">
           
-          <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">Science Faculty </a></li>
-          <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">Commerce Faculty</a></li>
-          <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">Arts Faculty</a></li>
-          <li><a href="#" class="block px-4 py-2 hover:bg-[#005599]">Other Faculty</a></li>
+          <li><a href="faculties.php#science" class="block px-4 py-2 hover:bg-[#005599]">Science Faculty </a></li>
+          <li><a href="faculties.php#commerce" class="block px-4 py-2 hover:bg-[#005599]">Commerce Faculty</a></li>
+          <li><a href="faculties.php#arts" class="block px-4 py-2 hover:bg-[#005599]">Arts Faculty</a></li>
+          <li><a href="faculties.php#other" class="block px-4 py-2 hover:bg-[#005599]">Other Faculty</a></li>
         </ul>
       </li>
 

@@ -190,11 +190,7 @@
         Eveniet, eum illum obcaecati tempore doloremque laborum laudantium sunt maiores! Iure voluptatibus ipsa molestiae tenetur expedita rerum, eveniet vitae omnis nihil quam quasi a aliquam tempore? Deleniti voluptate dolore ratione.
         Reprehenderit ducimus numquam praesentium rem? Officia accusamus dolor accusantium odit vero. Animi consequatur magnam molestias praesentium in ad iusto quo, maxime asperiores cupiditate rerum minima? Hic nisi impedit esse ea!
         Eveniet dolor dolorem explicabo doloremque vel ut eligendi. Error assumenda harum est odio pariatur dolore, odit beatae ipsa, quod eaque saepe sint ex officia deserunt dolores suscipit perferendis sed quam.
-        Enim placeat quas odio beatae iste labore facere sequi. Eligendi, facere. Quae consequuntur ex assumenda voluptatum doloremque eligendi, corrupti unde animi, dicta sequi ipsam aspernatur? Dolorum vero corporis quibusdam officia!
-        Temporibus ipsa, consectetur debitis architecto non voluptas vero! Cumque aut dolor animi sapiente perferendis odio laboriosam, enim eos neque? Eligendi corrupti, deleniti necessitatibus ipsum eveniet ex fugit aut impedit maiores.
-        Dolorem quidem architecto et. Minima iste laborum ducimus optio cumque ab possimus dolores totam doloribus quibusdam, sint deserunt expedita qui inventore est rerum odit illum facilis aperiam iure. Reprehenderit, explicabo?
-        Delectus quisquam unde ab nam, blanditiis, laborum sunt, inventore eveniet ipsum voluptates quibusdam. Aliquid similique voluptatibus labore? Voluptates impedit fuga nostrum quasi, nobis, pariatur molestiae dicta harum facilis dolore recusandae.
-        Dolorem corrupti dolores libero, laboriosam placeat facere quam non illum pariatur, odio deleniti delectus tempore, aliquam molestias rerum enim eum asperiores hic eveniet excepturi distinctio minima magnam! Ducimus, provident nostrum.
+        Enim placeat quas odio beatae iste labore facere sequi. Eligendi, facere. Quae consequuntur ex assumenda voluptatum doloremque eligendi, corrupti unde animi, dicta sequi ipsam aspernatur? Dol
         Ex necessitatibus quo velit, fugiat nostrum omnis. Perferendis, dolor corporis in perspiciatis praesentium magnam maiores ex quasi culpa vitae amet eos. Molestias ut natus, quis consequatur voluptatibus nulla mollitia porro.
         Praesentium accusantium nihil, illum ducimus laborum voluptatum esse eveniet culpa tempore corporis magni illo non repellat quod, eius omnis assumenda molestiae perferendis repellendus error autem voluptas ratione obcaecati at. Velit!
         Natus similique animi praesentium mollitia. Corporis, accusantium reprehenderit quia fugiat fugit quam alias unde enim necessitatibus! Architecto ab ducimus debitis dolorum, voluptas impedit dicta fugiat incidunt odio vel, fuga dignissimos!
@@ -220,33 +216,7 @@
         Accusantium, quisquam vel. Quod explicabo accusantium, molestias amet animi, ea eius a libero tempora atque ad deserunt corrupti recusandae nam corporis consequuntur cum quae voluptatem pariatur veritatis. Inventore, rem dolorem?
         Expedita sed ipsa totam labore, quos nam quibusdam excepturi molestias, dolorem sunt ex fugit qui delectus, iste dolor optio voluptate dolores natus laudantium tenetur eligendi error deserunt officia sapiente. Recusandae.
         Reiciendis dolorem necessitatibus officiis dolores nihil porro asperiores officia provident ducimus esse hic culpa exercitationem totam, itaque ipsum aperiam sequi accusamus vitae dolore quasi facilis animi? Deserunt cupiditate vero corrupti!
-        Quas ipsam voluptates alias, cumque exercitationem aliquid in numquam delectus corporis deserunt quis facilis esse voluptatem asperiores, aspernatur eveniet. Laborum dolore quis eos, quod esse suscipit veritatis doloremque accusantium incidunt?
-        Itaque, quia eius? Iusto dicta laboriosam esse quasi veniam odio eos aut veritatis, ratione quae, saepe voluptates sapiente alias ullam aliquam cumque? Labore fugiat vitae laudantium maiores similique eum ab!
-        Nemo perferendis nostrum quisquam odit, quidem sint quis dolor deleniti repudiandae, ut voluptatem! Voluptate, fugiat est perferendis asperiores dicta dolores suscipit, reprehenderit tempora, eius impedit dolorum iusto quia porro dolore.
-        Harum amet ratione possimus maxime at. Aut quibusdam autem fuga odio maiores quo in necessitatibus, porro quia tenetur, iste beatae consequatur repellendus iure architecto molestiae laboriosam distinctio repellat, aliquid nam!
-        Quia distinctio at reprehenderit quos. Quasi dolorem nam voluptate atque odit aliquid cumque? Eum provident qui nulla? Consequuntur vel esse quidem dolore aut eveniet sequi fugit nisi magnam! Quo, deserunt!
-        Quo a laborum magni nisi recusandae illo, harum fuga tempora ratione blanditiis tempore consectetur aliquam! Ullam impedit eaque sunt a quasi in rerum tempore, harum, ea, est quae eum dolorum!
-        Temporibus omnis itaque a, provident blanditiis ipsa saepe consequatur aperiam voluptas adipisci dolor delectus officia sapiente obcaecati possimus eum tenetur earum qui? Totam est voluptate quaerat fuga quia nulla veritatis!
-        Repellat, sapiente rem nesciunt nemo dolore enim quo at iure cumque quisquam laborum accusamus minima, quaerat ratione dignissimos eius autem quasi facere, excepturi expedita! Facilis suscipit itaque nulla in aliquam!
-        Dolor quidem natus sed, corrupti omnis nam deserunt fugit fuga rerum ratione adipisci cupiditate placeat! Possimus omnis aliquid laboriosam facere reprehenderit sequi reiciendis, qui temporibus iusto voluptatum neque ullam. Libero!
-        Explicabo eum maxime similique corporis, deleniti aspernatur vero velit at ipsa eaque soluta illum ullam reprehenderit ratione dolor! Quaerat quia facere odio, ab molestias nemo quis fugit aliquam! Atque, nostrum.
-        Assumenda, rem dolore nemo dignissimos, accusamus dolorem ex numquam laudantium velit doloremque architecto illo voluptatem optio deleniti distinctio eius pariatur enim. Soluta maxime possimus id perferendis sequi non aut. Distinctio.
-        Dolore sequi debitis error itaque optio rem facilis deleniti eos est illo harum laborum consequuntur nobis, eveniet maxime. Distinctio, animi reprehenderit neque ad placeat voluptatum eos optio corrupti recusandae beatae!
-        Facere eligendi ipsum unde quaerat ullam nam dolor necessitatibus in dolore molestias perferendis pariatur cum, maxime veniam, aperiam perspiciatis deserunt voluptatem ducimus magnam harum voluptates! Mollitia, possimus. Rem, sunt vitae?
-        Amet perferendis, necessitatibus magni harum totam vel provident laudantium illum ipsa obcaecati. Dolore quidem nemo porro ullam similique laborum illo reprehenderit dignissimos, perferendis ratione facere! Assumenda laborum debitis nisi laboriosam?
-        Perspiciatis, cumque laboriosam maxime non quam recusandae expedita obcaecati voluptas ratione ad accusamus, doloremque aspernatur odio possimus facilis, soluta quaerat dolorem veritatis magnam qui odit cum illum. Ullam, incidunt omnis.
-        Ipsa fuga, et illum velit dolor officia quod odio beatae distinctio rerum quisquam aliquam dolorum dolores vitae doloribus totam, nemo eos commodi tenetur? Distinctio temporibus ullam ad, odit vitae laudantium!
-        Laboriosam non eum facere, sunt laudantium asperiores tempora, doloremque similique ipsam iusto ducimus debitis quae aliquam maiores! Perferendis porro possimus accusantium. Sint porro recusandae doloribus facilis, harum aperiam vel esse?
-        Eveniet fuga explicabo a, nostrum porro rem adipisci recusandae ducimus reiciendis voluptatem sapiente repudiandae officia quod tenetur expedita, libero cupiditate veniam repellat placeat delectus enim praesentium at. Earum, similique minima?
-        Culpa magnam, fugiat ut incidunt illo a aut eos recusandae qui dolorum est ratione quas hic minima quos doloribus illum consequuntur? Adipisci dolorem vero porro aliquam pariatur illum ipsa nihil.
-        Quaerat non aut eum consequatur libero cupiditate mollitia quasi numquam ipsum? Maiores, obcaecati. Rerum, iure qui cum, asperiores ratione porro, quasi neque aperiam eaque quis voluptatum molestias vitae harum earum.
-        Autem sequi, ratione repellendus a dolorem fuga ullam earum ipsam id, repudiandae, voluptatum omnis beatae placeat impedit ad asperiores. Ullam delectus fugiat temporibus alias accusamus repellendus ipsam dolor consequatur! Minima?
-        Sed incidunt officiis doloremque vel culpa excepturi. Voluptate illo dicta sequi sunt aspernatur ex pariatur. Ad quos eius voluptates doloremque, dolores odio neque harum nostrum enim natus at tempora nobis.
-        Placeat quia eligendi in itaque provident modi nobis obcaecati accusantium exercitationem eaque soluta sequi deleniti cum expedita at assumenda aspernatur libero quasi omnis, eveniet vel ea dolor? Aperiam, est quos.
-        Pariatur repellendus blanditiis, ad est optio molestias ut laudantium neque cupiditate harum dicta suscipit mollitia sit necessitatibus quaerat iure amet deserunt earum dignissimos sunt aliquam. Sequi molestias atque facere dolor.
-        Quos, quis voluptatum cum distinctio, officiis consequuntur dolore quidem exercitationem, beatae reiciendis ad harum ratione repudiandae aliquid est cumque nam repellendus rem maxime minima delectus aperiam esse ullam. Error, nobis.
-        Pariatur inventore impedit, cum quae reprehenderit minus fugit sed eius animi suscipit quo et, debitis esse sunt quisquam, est in numquam temporibus assumenda nam excepturi laborum? Sed error esse placeat.
-        Vel eos fugiat vitae veritatis animi reprehenderit quae architecto minus eius praesentium adipisci eum dolor exercitationem quas, totam mollitia quisquam sed reiciendis dignissimos voluptas accusamus quo error asperiores. Harum, ea.
+        Quas ipsam voluptates alias, cumque exercitationem aliquid in numquam delectus corporis deserunt ritatis animi reprehenderit quae architecto minus eius praesentium adipisci eum dolor exercitationem quas, totam mollitia quisquam sed reiciendis dignissimos voluptas accusamus quo error asperiores. Harum, ea.
         At cumque hic aperiam, quod repellendus voluptatum iure esse necessitatibus nam eos vero corporis harum impedit architecto minus nisi suscipit iste ducimus. Doloremque quisquam culpa tempora exercitationem eius soluta cupiditate!
         Sed enim blanditiis dignissimos odio, rem dolorum optio delectus quae ipsa et sapiente alias eaque beatae inventore qui dolorem eveniet quo fugit veniam accusantium repellendus nobis consequatur! Dolore, magni sunt.
         Delectus pariatur ipsa, in voluptatibus eveniet ut assumenda debitis ad cum perspiciatis non perferendis autem enim fugit? Corporis dolorem natus repellendus, doloribus perspiciatis officia eos nulla distinctio doloremque a veritatis?
@@ -282,11 +252,7 @@
         Dolorum qui laboriosam dolorem facere tenetur consequuntur repellat, aliquid soluta reiciendis ea cumque et id voluptas commodi voluptatem nam, est quis nemo necessitatibus voluptate odio. Eligendi fuga explicabo inventore nemo.
         Dolorem asperiores distinctio, a illo eos, hic repellendus non in mollitia et provident accusamus aliquid veniam quos, porro pariatur vero magni ad consequuntur. Qui reiciendis aliquid eligendi. Necessitatibus, tempore nesciunt.
         Rerum, magni. Deleniti, sed deserunt? Officia harum qui id quis accusantium eligendi tempore, inventore consequuntur aspernatur, ipsum repellat accusamus nulla magni eius veritatis reprehenderit quam perferendis sed modi voluptates. Voluptatem!
-        Autem maxime ea quis. Laudantium voluptates explicabo doloremque eaque quas cupiditate odio reprehenderit, ipsam perferendis molestiae nostrum libero atque magnam deserunt voluptate hic ducimus, natus quia inventore eveniet distinctio quos!
-        Dignissimos iure praesentium unde vitae optio similique at, necessitatibus dolores quaerat voluptatem voluptate laborum, facilis asperiores! Soluta quis omnis ducimus magnam officiis cupiditate deserunt suscipit a corrupti nulla? Laborum, optio.
-        Commodi repudiandae veniam at, eius dolore qui quia et velit ut, rem nam blanditiis. Fugiat, molestias doloribus ex, ut fugit nostrum deleniti perferendis aspernatur dolorem blanditiis quisquam error non vel.
-        Earum tenetur minima ratione iste corrupti officiis unde neque error facilis nisi, perspiciatis est. Laboriosam incidunt, odio doloribus mollitia molestias fugit, assumenda eum ipsa a deleniti, excepturi esse dolores nulla!
-        Porro, quos ratione in exercitationem corrupti optio, quibusdam dignissimos accusamus fuga, sit repudiandae? Ab aliquid sit odit cum, nemo sunt nisi, quis magnam laudantium, expedita suscipit corporis! Sequi, eum laborum.
+        Autem maxime ea quis. Laudantium voluptates explicabo doloremque eaque quas cupiditate odio reprehenderit, ipsam perferendis molestiae nostrum libero atque magnam deserunt voluptate hic ducimu
         Delectus officiis magnam corrupti ea omnis commodi? Exercitationem nisi vero quos ad voluptates fugit quas at temporibus distinctio natus iusto sit nulla quae numquam dicta, vitae eveniet voluptas error mollitia.
         Laudantium dolor maxime voluptatibus itaque quis fugiat voluptatum quasi impedit. Voluptatem, laboriosam. Nisi eum rerum laudantium nulla, laboriosam, illum itaque similique in tempora, quam et iste cupiditate hic obcaecati cum?
         Fuga, assumenda vitae, reprehenderit sed cum sunt fugiat voluptatem dignissimos maxime doloribus veritatis fugit recusandae iure odit nesciunt. Ea saepe repellendus quas nobis deserunt nesciunt vero adipisci placeat, accusantium magnam.
@@ -350,10 +316,14 @@
 
 <hr class="text-[2px] text-blue-700 mt-4">
 <!-- Importent Notice -->
- <section class="mt-10 w-3xl p-2 mx-auto shadow-2xs">
+<div  style="background-image: url('./images/infr2.jpg');width: 100%;background-size: cover; height:auto;background-repeat: no-repeat; background-attachment: fixed; background-position: center center; ">
+ <section class="mt-10 shadow-2xs lg:w-3xl lg:mx-auto md:w-2xl md:mx-auto sm:w-1xl sm:mx-auto p-2" >
+  
   <h2 class="text-3xl font-bold text-center mb-4 text-red-600 hover:text-red-800">Importent notice</h2>
   
   <style>
+    
+    
 @keyframes scroll-up-slow {
   0%   { transform: translateY(0%); }
   100% { transform: translateY(-50%); }
@@ -382,7 +352,7 @@
   <div class="flex flex-col lg:flex-row md:flex-row gap-8">
 
   <!-- Notice Box 1 - Slower -->
-  <div class="h-60 w-80 overflow-hidden bg-gray-100 border rounded-lg relative">
+  <div class="h-60 w-80 mx-auto overflow-hidden bg-gray-100 border rounded-lg relative  ">
     <div class="scroll-slow pause-on-hover space-y-2 p-4">
       <p>📢 Notice 1: Welcome to our college!</p><hr>
       <p>📢 Notice 2: Annual sports meet is on 15th August.</p><hr>
@@ -404,7 +374,7 @@
   </div>
 
   <!-- Notice Box 2 - Faster -->
-  <div class="h-60 w-80 overflow-hidden bg-gray-100 border rounded-lg relative">
+  <div class="h-60 w-80  mx-auto overflow-hidden bg-gray-100 border rounded-lg relative">
     <div class="scroll-fast pause-on-hover space-y-2 p-4">
       <p>📢 Notice A: Admissions are now open.</p><hr>
       <p>📢 Notice B: Attend the orientation on Monday.</p><hr>
@@ -426,8 +396,32 @@
   </div>
 
 </div>
+</div>
+<div>
+  <h2 class="text-center text-4xl font-bold text-red-700 hover:text-pink-700 transition-colors">Full Guidelines for Student</h2>
+  <div class="flex flex-col lg:flex-row md:flex-row gap-8 ">
+  <div class="flex items-center justify-center text-center p-4 bg-gradient-to-br from-blue-300 to-blue-200 rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
+    <span class="font-bold text-lg text-gray-800">🎓 Entrance Exams <i class="fa-solid fa-arrow-right"></i></span>
+  </div>
+  <div class="flex items-center justify-center text-center p-4 bg-gradient-to-br from-blue-300 to-blue-300 rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
+    <span class="font-bold text-lg text-gray-800">✅ Selection <i class="fa-solid fa-arrow-right"></i></span>
+  </div>
+  <div class="flex items-center justify-center text-center p-4 bg-gradient-to-br from-blue-300 to-blue-200 rounded-xl shadow-lg hover:scale-105  transform transition duration-300">
+    <span class="font-bold text-lg text-gray-800">💻 Teaching Offline & Online<i class="fa-solid fa-arrow-right"></i></span>
+  </div>
+  <div class="flex items-center justify-center text-center p-4 bg-gradient-to-br from-blue-300 to-blue-200 rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
+    <span class="font-bold text-lg text-gray-800">📝 Exams<i class="fa-solid fa-arrow-right"></i></span>
+  </div>
+  <div class="flex items-center justify-center text-center p-4 bg-gradient-to-br from-blue-300 to-blue-200 rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
+    <span class="font-bold text-lg text-gray-800">📊 Result</span>
+  </div>
+</div> 
+
+</div>
+
 
 </section>
+</div>
 <!-- our courses -->
 <section class="mt-10">
   <div>
@@ -476,14 +470,42 @@
     </ul>
   </div>
 </div>
+</div>
+  
+</section>
 
+<!-- section of reviews from our students -->
+<section style="background-image:url('./images/infr2.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;" class="py-10 relative">
+  <div class="text-center mb-8">
+    <h2 class="text-4xl font-bold text-yellow-700 hover:text-pink-700">Reviews from Our Students</h2>
+  </div>
+
+  <div class="overflow-hidden relative max-w-7xl mx-auto">
+    <div id="carousel" class="grid grid-cols-3 gap-8 transition-transform duration-700 ease-in-out">
+      <!-- Review 1 -->
+      <div class=" flex-shrink-0 bg-white p-6 rounded-xl shadow-lg text-center transform scale-95 opacity-70 transition-all duration-500">
+        <h2 class="text-2xl font-bold text-blue-700 mb-2">Riya Mandal</h2>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem animi omnis hic corrupti, fugiat totam eum pariatur dolorem illo doloribus eos.</p>
+      </div>
+
+      <!-- Review 2 -->
+      <div class=" flex-shrink-0 bg-white p-6 rounded-xl shadow-xl text-center transform scale-110 opacity-100 z-10 transition-all duration-500">
+        <h2 class="text-2xl font-bold text-green-700 mb-2">Sanu Chakraborty</h2>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium hic asperiores similique sapiente ex ea consequatur inventore quia reiciendis dolore.</p>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="flex-shrink-0 bg-white p-6 rounded-xl shadow-lg text-center transform scale-95 opacity-70 transition-all duration-500">
+        <h2 class="text-2xl font-bold text-yellow-700 mb-2">Sunita Mahato</h2>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio dignissimos tenetur suscipit eum? Culpa quasi quas non? Unde voluptatum dicta perferendis.</p>
+      </div>
+    </div>
   </div>
 </section>
 
 
-
-
-
+<hr>
+<hr>
 
 
 <?php

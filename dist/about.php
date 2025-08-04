@@ -138,6 +138,95 @@ RTC Inter College is known for its consistent academic results and commitment to
     </div>
   </div>
 </section>
+<!-- facilities -->
+ <section class="bg-white py-16 px-4 md:px-12" id="facilities">
+  <div class="max-w-7xl mx-auto">
+    <!-- Heading -->
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-600">
+      🏫 Facilities at RTC Inter College
+    </h2>
+
+    <!-- Facilities Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
+      <!-- Facility Card -->
+      <div class="bg-gray-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl transition">
+        <div class="text-4xl text-blue-600 mb-4">💻</div>
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Modern Computer Lab</h3>
+        <p class="text-gray-600 text-sm">Equipped with the latest technology to support hands-on learning.</p>
+      </div>
+
+      <!-- Facility Card -->
+      <div class="bg-gray-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl transition">
+        <div class="text-4xl text-green-600 mb-4">📚</div>
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Library</h3>
+        <p class="text-gray-600 text-sm">A vast collection of books, journals, and digital resources for research.</p>
+      </div>
+
+      <!-- Facility Card -->
+      <div class="bg-gray-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl transition">
+        <div class="text-4xl text-yellow-600 mb-4">🔬</div>
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Science Labs</h3>
+        <p class="text-gray-600 text-sm">Well-equipped labs for Physics, Chemistry, and Biology experiments.</p>
+      </div>
+
+      <!-- Facility Card -->
+      <div class="bg-gray-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl transition">
+        <div class="text-4xl text-red-500 mb-4">🏀</div>
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Sports Ground</h3>
+        <p class="text-gray-600 text-sm">A large campus ground for football, cricket, volleyball, and more.</p>
+      </div>
+
+      <!-- Facility Card -->
+      <div class="bg-gray-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl transition">
+        <div class="text-4xl text-purple-500 mb-4">🏠</div>
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Hostel Facility</h3>
+        <p class="text-gray-600 text-sm">Separate hostels for boys and girls with 24/7 security and amenities.</p>
+      </div>
+
+      <!-- Facility Card -->
+      <div class="bg-gray-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl transition">
+        <div class="text-4xl text-indigo-600 mb-4">🚌</div>
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Transportation</h3>
+        <p class="text-gray-600 text-sm">Safe and convenient transport services from various routes.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Location -->
+
+ <section class="bg-gray-50 text-gray-800 px-4 md:px-12 py-16" id="location">
+  <div class="max-w-7xl mx-auto">
+    <!-- Heading -->
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 bg-gradient-to-r from-blue-600 to-blue-500  text-transparent bg-clip-text ">
+      📍 Location of RTC Inter College
+    </h2>
+
+    <!-- Description -->
+    <p class="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto leading-relaxed">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo delectus asperiores impedit facilis! Quod, voluptas facilis animi itaque deleniti sit consequatur in molestiae ut doloribus rerum ea libero. Ut, sapiente?
+    </p>
+
+    <!-- Map and Contact Box -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Google Map -->
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.8117581512965!2d85.37441557306234!3d23.403907701994427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e38b674a5f5f%3A0xd1f53a0aa8d3aeeb!2sRTC%20Inter%20College!5e1!3m2!1sen!2sin!4v1754294129549!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Address Info -->
+      <div class="bg-white p-6 rounded-xl shadow-xl text-center">
+        <h3 class="text-2xl font-semibold text-blue-700 mb-4">Visit Us</h3>
+        <p class="text-gray-600 text-lg mb-2">RTC Inter College</p>
+        <p class="text-gray-600">Bargain Village, Ranchi, Jharkhand 834009</p>
+        <p class="text-gray-600 mt-4">📞 Phone: +91-12345-67890</p>
+        <p class="text-gray-600">✉️ Email: info@rtcintercollege.ac.in</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <?php

@@ -3,6 +3,8 @@ const dom = {
   caption: document.getElementById("carousel-caption"),
   nextBtn: document.getElementById("nextBtn"),
   prevBtn: document.getElementById("prevBtn"),
+  reviwe_conteiner: document.getElementById("reviwe_conteiner"),
+  student_review: document.getElementsByClassName("student_review"),
 };
 
 // Now store image + caption together
@@ -54,3 +56,9 @@ function resetAutoSlide() {
   clearInterval(autoSlide);
   autoSlide = setInterval(nextImage, 5000);
 }
+
+
+// student review
+
+
+  
