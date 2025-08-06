@@ -480,32 +480,16 @@
     <h2 class="text-4xl font-bold text-yellow-700 hover:text-pink-700">Reviews from Our Students</h2>
   </div>
 
-  <div class="overflow-hidden relative max-w-7xl mx-auto">
-    <div id="carousel" class="grid grid-cols-3 gap-8 transition-transform duration-700 ease-in-out">
-      <!-- Review 1 -->
-      <div class=" flex-shrink-0 bg-white p-6 rounded-xl shadow-lg text-center transform scale-95 opacity-70 transition-all duration-500">
-        <h2 class="text-2xl font-bold text-blue-700 mb-2">Riya Mandal</h2>
-        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem animi omnis hic corrupti, fugiat totam eum pariatur dolorem illo doloribus eos.</p>
-      </div>
-
-      <!-- Review 2 -->
-      <div class=" flex-shrink-0 bg-white p-6 rounded-xl shadow-xl text-center transform scale-110 opacity-100 z-10 transition-all duration-500">
-        <h2 class="text-2xl font-bold text-green-700 mb-2">Sanu Chakraborty</h2>
-        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium hic asperiores similique sapiente ex ea consequatur inventore quia reiciendis dolore.</p>
-      </div>
-
-      <!-- Review 3 -->
-      <div class="flex-shrink-0 bg-white p-6 rounded-xl shadow-lg text-center transform scale-95 opacity-70 transition-all duration-500">
-        <h2 class="text-2xl font-bold text-yellow-700 mb-2">Sunita Mahato</h2>
-        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio dignissimos tenetur suscipit eum? Culpa quasi quas non? Unde voluptatum dicta perferendis.</p>
-      </div>
-    </div>
+  <div class="relative  lg:max-w-5xl md:max-w-3xl sm:max-w-xl mx-auto my-10 overflow-hidden">
+  <div id="reviewsWrapper" class=" grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 transition-transform duration-700 ease-in-out">
+    <!-- Reviews will be injected by JavaScript -->
   </div>
+</div>
+ 
 </section>
 
 
-<hr>
-<hr>
+
 
 
 <?php

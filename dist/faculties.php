@@ -1,35 +1,181 @@
 <?php
 include("header.php")
 ?>
-<section class="p-40">
- <div class="lg:max-w-2xl lg:mx-auto md:max-w-2xl md:mx-auto w-full">
+<section class=" bg-gradient-to-br from-blue-100 to-blue-200 p-40">
+  <div class="lg:max-w-4xl mx-auto md:max-w-3xl sm:max-w-xl text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-blue-900 mb-6">Our Faculties</h2>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 text-left text-lg font-medium text-blue-800 mb-12">
+      <li class="bg-white rounded-xl shadow p-4 hover:bg-blue-50 transition-all duration-300">
+        👨‍🏫 Highly Qualified Teachers
+      </li>
+      <li class="bg-white rounded-xl shadow p-4 hover:bg-blue-50 transition-all duration-300">
+        🎓 Experienced Subject Experts
+      </li>
+      <li class="bg-white rounded-xl shadow p-4 hover:bg-blue-50 transition-all duration-300">
+        📈 Focus on Student Success
+      </li>
+      <li class="bg-white rounded-xl shadow p-4 hover:bg-blue-50 transition-all duration-300">
+        🤝 Supportive Mentors & Guides
+      </li>
+    </ul>
+    <p class="text-2xl font-semibold text-rose-900  text-center">👨‍🏫 Our team of highly qualified teachers is committed to providing a supportive environment for students to excel in their studies.</p>
+  </div>
+</section>
+<section class="p-40 ">
+ <div class="lg:max-w-2xl lg:mx-auto md:max-w-2xl md:mx-auto w-full " id="science">
     <h2 class=" md:text-4xl font-bold text-center text-blue-700 mb-10">
       👨‍🏫 Faculty List Of Science – RTC Inter College
     </h2>
-    <div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row">
+   
+    <div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
         <div>
             <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
      </div>
      <div class="ml-10 p-4 ">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Dr. Rakesh Kumar</span></p>
-         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" > M.Sc. & Ph.D.</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Physics </span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > HOD & Lacturer</span></p>
-           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >r</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.Sc. & Ph.D.</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" >Ms. Priya Sinha</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Chemistry </span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.Sc. & B.Ed.</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Anil Raj</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Mathematics</span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >  Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.Sc. B.Ed.</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full ">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Rahul Thakur</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Computer</span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >MCA,B.ED</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" >Mrs. Nisha Verma</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Biology</span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.Sc. B.Ed.</span></p>
             <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
 </div>
 </div>
 </div>
+</div>
+<div class="lg:max-w-2xl lg:mx-auto md:max-w-2xl md:mx-auto w-full " id="arts">
+    <h2 class=" md:text-4xl font-bold text-center text-blue-700 mb-10">
+      👨‍🏫 Faculty List Of Arts– RTC Inter College
+    </h2>
+    <div class="mb-10">
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Rajeev Singh</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >English</span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.A.,B.Ed.</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Ms. Sweta Kumari</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Hindi </span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.A.,B.Ed.</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mrs. Meena Dey</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Physics Ed.</span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >B.P.Ed. ,M.P.Ed</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+
+</div>
+<div class="lg:max-w-2xl lg:mx-auto md:max-w-2xl md:mx-auto w-full " id="commerce">
+    <h2 class=" md:text-4xl font-bold text-center text-blue-700 mb-10">
+      👨‍🏫 Faculty List Of Commerce – RTC Inter College
+    </h2>
+    <div class="mb-10">
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row mb-8">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Manoj Tiwari</span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Commerce </span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >NET Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.Com.</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg shadow-md flex sm:flex-col md:flex-col lg:flex-row">
+        <div>
+            <img src="https://Placehold.co/200x200 " alt="Image 1" class="w-40 h-40 rounded-full mb-8">
+     </div>
+     <div class="ml-10 p-4 ">
+        <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Dr.Anjali Das </span></p>
+         <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Economics</span></p>
+          <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > Senior Lacturer</span></p>
+           <p><span class="font-extrabold ">Qualification:</span><span class="font-semibold" >M.A. & Ph.D.</span></p>
+            <p><span class="font-extrabold ">Experienced:</span><span class="font-semibold" > 12 year</span></p>
+</div>
+</div>
+
+</div>
+
 
 </section>
 
 <section class="bg-white py-16 px-4 md:px-12 mx-auto text-center" id="other">
-  <div class="max-w-7xl mx-auto">
+  <div class="lg:max-w-7xl md:max-w-5xl sm:max-w-3xl mx-auto">
     <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-700 mb-10">
       👨‍🏫 Faculty List – RTC Inter College, Ranchi
     </h2>
 
     <div class="overflow-x-auto rounded-lg shadow-md">
-      <table class="min-w-full bg-white border border-gray-200">
+      <table class="min-w-full  bg-white border border-gray-200">
         <thead class="bg-blue-600 text-white text-left text-sm md:text-base">
           <tr>
             <th class="px-4 py-3 border">S.No</th>
