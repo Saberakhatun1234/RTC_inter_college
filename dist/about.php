@@ -1,7 +1,7 @@
 <?php
 include("header.php");
 ?>
-<section class="pt-38">
+<section >
     <h1 class="text-4xl text-center bg-gradient-to-br from-amber-500 via-red-700 to-blue-900 text-transparent bg-clip-text font-bold lg:w-100 md:w-100  w-full mx-auto">Let's know About Us
 </h1>
     <div class="flex justify-center items-center w-full lg:flex-row flex-col md:flex-row">

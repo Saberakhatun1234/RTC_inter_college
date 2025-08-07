@@ -1,10 +1,11 @@
 <?php
  include("header.php")
-?>
 
+?>
+<script src="carosol.js" defer></script>
 
 <!-- Carousel Section -->
-<section class="relative w-full overflow-hidden rounded-xl mb-10 pt-38">
+<section class="relative w-full overflow-hidden rounded-xl mb-10 ">
   <img
     id="carousel-image"
     src="./images/infr2.jpg"

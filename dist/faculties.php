@@ -1,7 +1,7 @@
 <?php
 include("header.php")
 ?>
-<section class=" bg-gradient-to-br from-blue-100 to-blue-200 p-40">
+<section class=" bg-gradient-to-br from-blue-100 to-blue-200 ">
   <div class="lg:max-w-4xl mx-auto md:max-w-3xl sm:max-w-xl text-center">
     <h2 class="text-3xl md:text-4xl font-extrabold text-blue-900 mb-6">Our Faculties</h2>
     <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 text-left text-lg font-medium text-blue-800 mb-12">

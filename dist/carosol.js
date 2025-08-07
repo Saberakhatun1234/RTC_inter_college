@@ -4,7 +4,6 @@ const dom = {
   nextBtn: document.getElementById("nextBtn"),
   prevBtn: document.getElementById("prevBtn"),
   wrapper: document.getElementById("reviewsWrapper"),
-
 };
 
 // Now store image + caption together
@@ -42,7 +41,7 @@ function prevImage() {
 
 let autoSlide = setInterval(nextImage, 5000);
 
-dom.nextBtn.addEventListener("click", () => {
+dom.nextBtn.addEventListener("click", (e) => {
   nextImage();
   resetAutoSlide();
 });

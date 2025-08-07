@@ -1,6 +1,7 @@
 <?php
 include("header.php");
 ?>
+
 <div class=" mx-auto w-full ">
 <section id="admission" class="relative  h-auto ">
     <div class="w-full h-auto ">
