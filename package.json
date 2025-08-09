@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "tailwindcss -i src/input.css -o dist/output.css",
+    "watch": "tailwindcss -i src/input.css -o dist/output.css --watch",
+    "dev": "tailwindcss -i src/input.css -o dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "education",
+    "college",
+    "website"
+  ],
+  "author": "RTC Inter College",
   "license": "ISC",
-  "description": "",
+  "description": "RTC Inter College official website",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
+    "tailwind-scrollbar": "^4.0.2",
     "tailwindcss": "^4.1.11"
   }
 }

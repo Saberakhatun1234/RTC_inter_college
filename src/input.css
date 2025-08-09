@@ -1,3 +1,86 @@
 @import "tailwindcss";
 
+/* Custom styles for mobile navigation */
+@media (max-width: 767px) {
+  #nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1e3a8a;
+    border-top: 1px solid #3b82f6;
+    display: none;
+    z-index: 1000;
+  }
+  
+  #nav-links.flex {
+    display: flex !important;
+    flex-direction: column;
+  }
+  
+  #nav-links li {
+    border-bottom: 1px solid #3b82f6;
+  }
+  
+  #nav-links li:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-menu {
+    background-color: #1e40af !important;
+    border-left: 3px solid #60a5fa;
+    margin-left: 1rem;
+    border-radius: 0;
+    box-shadow: none;
+    position: static !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    display: none;
+  }
+  
+  .dropdown-menu.show {
+    display: block !important;
+  }
+  
+  .dropdown-menu li {
+    border-bottom: 1px solid #3b82f6;
+  }
+  
+  .dropdown-menu li:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-menu a {
+    padding-left: 2rem;
+    font-size: 0.875rem;
+  }
+  
+  /* Chevron rotation for mobile */
+  .dropdown.active .fa-chevron-down {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Ensure navigation is visible */
+  nav {
+    position: relative;
+  }
+  
+  /* Mobile menu button styling */
+  #nav-toggle {
+    z-index: 1001;
+  }
+}
+
+/* Desktop hover effects */
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+  
+  .dropdown-menu {
+    transition: all 0.3s ease;
+  }
+}
+
 
