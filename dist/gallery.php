@@ -2,7 +2,7 @@
 include("header.php");
 ?>
 
-<section class="bg-gray-50 py-16 px-4 sm:px-8">
+<section class="bg-gray-50 py-16 px-4 sm:px-2">
   <div class="max-w-full mx-auto">
     <h1 class="text-4xl text-center bg-gradient-to-br from-amber-500 via-red-700 to-blue-900 text-transparent bg-clip-text font-bold mb-12">
       College Gallery
@@ -210,20 +210,29 @@ include("header.php");
     </div>
 
     <!-- Call to Action -->
-    <div class="bg-blue-600 rounded-xl p-8 text-center text-white">
+    <div class="bg-blue-600 rounded-xl  text-center text-white">
       <h3 class="text-2xl font-bold mb-4">Want to See More?</h3>
       <p class="text-blue-100 mb-6">Follow us on social media for regular updates and behind-the-scenes content</p>
-      <div class="flex justify-center space-x-4">
-        <a href="#" class="bg-white text-blue-600 px-6 py-2 rounded-lg hover:bg-gray-100 transition-colors">
-          <i class="fab fa-facebook mr-2"></i>Facebook
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto p-6">
+  
+  <a href="#" class="flex items-center justify-center bg-white text-blue-600 px-6 py-4 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+    <i class="fab fa-facebook text-2xl mr-3"></i>
+    <span class="font-semibold text-lg">Facebook</span>
+  </a>
+
+  
+    <a href="#" class="flex items-center justify-center bg-white text-red-500 px-6 py-4 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+          <i class="fab fa-instagram mr-3 text-2xl "></i>    <span class="font-semibold text-lg">Instagram</span>
         </a>
-        <a href="#" class="bg-white text-blue-600 px-6 py-2 rounded-lg hover:bg-gray-100 transition-colors">
-          <i class="fab fa-instagram mr-2"></i>Instagram
-        </a>
-        <a href="#" class="bg-white text-blue-600 px-6 py-2 rounded-lg hover:bg-gray-100 transition-colors">
-          <i class="fab fa-youtube mr-2"></i>YouTube
-        </a>
-      </div>
+
+  
+  <a href="#" class="flex items-center justify-center bg-white text-red-500 px-6 py-4 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+    <i class="fab fa-youtube text-2xl mr-3"></i>
+    <span class="font-semibold text-lg">YouTube</span>
+  </a>
+
+</div>
+
     </div>
   </div>
 </section>

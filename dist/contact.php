@@ -2,7 +2,7 @@
 include("header.php");
 ?>
 
-<section class="bg-gray-50 py-16 px-4 sm:px-8">
+<section class="bg-gray-50 py-16 px-4">
   <div class="max-w-6xl mx-auto">
     <h1 class="text-4xl text-center bg-gradient-to-br from-amber-500 via-red-700 to-blue-900 text-transparent bg-clip-text font-bold mb-12">
       Contact Us
@@ -15,11 +15,11 @@ include("header.php");
     <div class="grid lg:grid-cols-2 gap-12">
       <!-- Contact Information -->
       <div class="space-y-8">
-        <div class="bg-white rounded-xl shadow-lg p-8">
+        <div class="bg-white rounded-xl shadow-lg p-4">
           <h2 class="text-2xl font-bold text-blue-700 mb-6">Contact Information</h2>
           
           <div class="space-y-6">
-            <div class="flex items-start space-x-4">
+            <div class="flex items-start gap-4">
               <div class="bg-blue-100 p-3 rounded-full">
                 <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
               </div>
@@ -31,7 +31,7 @@ include("header.php");
               </div>
             </div>
             
-            <div class="flex items-start space-x-4">
+            <div class="flex items-start gap-4">
               <div class="bg-green-100 p-3 rounded-full">
                 <i class="fas fa-phone text-green-600 text-xl"></i>
               </div>
@@ -44,7 +44,7 @@ include("header.php");
               </div>
             </div>
             
-            <div class="flex items-start space-x-4">
+            <div class="flex items-start gap-4">
               <div class="bg-purple-100 p-3 rounded-full">
                 <i class="fas fa-envelope text-purple-600 text-xl"></i>
               </div>
@@ -57,7 +57,7 @@ include("header.php");
               </div>
             </div>
             
-            <div class="flex items-start space-x-4">
+            <div class="flex items-start gap-4">
               <div class="bg-orange-100 p-3 rounded-full">
                 <i class="fas fa-clock text-orange-600 text-xl"></i>
               </div>
@@ -74,9 +74,9 @@ include("header.php");
         </div>
 
         <!-- Social Media -->
-        <div class="bg-white rounded-xl shadow-lg p-8">
+        <div class="bg-white rounded-xl shadow-lg p-4">
           <h2 class="text-2xl font-bold text-blue-700 mb-6">Follow Us</h2>
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-4">
             <a href="#" class="flex items-center space-x-3 p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
               <i class="fab fa-facebook text-xl"></i>
               <span>Facebook</span>
@@ -98,7 +98,7 @@ include("header.php");
       </div>
 
       <!-- Contact Form -->
-      <div class="bg-white rounded-xl shadow-lg p-8">
+      <div class="bg-white rounded-xl shadow-lg p-4">
         <h2 class="text-2xl font-bold text-blue-700 mb-6">Send us a Message</h2>
         
         <form class="space-y-6">

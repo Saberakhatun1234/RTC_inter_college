@@ -5,13 +5,13 @@ include("header.php")
 <section class="relative  overflow-hidden rounded-xl mb-10">
   <img src="./images/notice.jpg" alt="notice" class="w-full max-h-40">
 </section>
-<section class="grid sm:grid-cols-1 md:grid-cols-[3fr_1fr] gap-8 p-6">
+<section class="grid sm:grid-cols-1 md:grid-cols-[3fr_1fr] gap-8 sm:p-1 md:p-8">
   <!-- Notices (75%) -->
   <div class="flex flex-col">
     <h2 class="text-3xl font-bold text-blue-800 hover:text-pink-700 transition-colors mb-4">
       Notices
     </h2>
-    <div class="bg-green-300 rounded flex-1 max-h-96 overflow-y-auto">
+    <div class="bg-green-300  rounded flex-1 max-h-96 overflow-y-auto">
       <table class="w-full text-center">
         <thead class="sticky top-0">
           <tr>
