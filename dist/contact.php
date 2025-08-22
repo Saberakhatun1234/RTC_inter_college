@@ -153,12 +153,13 @@ include("header.php");
       <h2 class="text-3xl font-bold text-blue-700 mb-8 text-center">Find Us on Map</h2>
       <div class="bg-white rounded-xl shadow-lg p-8">
         <div class="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
-          <div class="text-center">
+          <!-- <div class="text-center">
             <i class="fas fa-map-marked-alt text-6xl text-gray-400 mb-4"></i>
             <h3 class="text-xl font-semibold text-gray-600 mb-2">Interactive Map</h3>
             <p class="text-gray-500">Map integration will be added here</p>
             <p class="text-sm text-gray-400 mt-2">RTC Inter College, Near Railway Station, Ranchi</p>
-          </div>
+          </div> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.750772657635!2d85.476192!3d23.471727200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4faf9d550ba9d%3A0xc67798ae32818110!2sRTC%20College!5e0!3m2!1sen!2sin!4v1755082064873!5m2!1sen!2sin" width="100%" height="387px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

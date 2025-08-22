@@ -6,19 +6,19 @@
 
 <!-- Carousel Section -->
 <section class="relative w-full overflow-hidden rounded-xl mb-10 ">
+  <div class="absolute inset-0 bg-black/40 pointer-events-none" aria-hidden="true"></div>
   <img
     id="carousel-image"
     src="./images/infr2.jpg"
     alt="Carousel Image"
-    class="w-full h-96 object-cover transition-opacity duration-700 ease-in-out sm:h-[28rem]"
+    class="w-full h-96 object-cover transition-opacity duration-700 ease-in opacity-100 sm:h-[28rem]"
   />
 
   <!-- Text Overlay -->
    <div id="carousel-caption"
      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
-            bg-opacity-0 text-2xl sm:text-4xl font-extrabold px-6 py-3 z-10 
-            bg-clip-text text-transparent 
-            bg-gradient-to-br from-amber-600 via-rose-600 to-red-700 text-center">
+            text-2xl sm:text-4xl font-extrabold px-6 py-3 z-10 
+            text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)] text-center">
   Welcome to RTC Inter College!
 </div>
 
@@ -26,7 +26,8 @@
   <!-- Prev Button -->
   <button
     id="prevBtn"
-    class="z-20 absolute top-1/2 left-2 sm:left-4 transform -translate-y-1/2 font-extrabold bg-opacity-50 text-white p-2 sm:p-3 rounded-full hover:bg-opacity-80"
+    class="z-20 absolute top-1/2 left-2 sm:left-4 transform -translate-y-1/2 font-extrabold bg-black/40 hover:bg-black/60 text-white p-2 sm:p-3 rounded-full"
+    aria-label="Previous slide"
   >
     ❮
   </button>
@@ -34,7 +35,8 @@
   <!-- Next Button -->
   <button
     id="nextBtn"
-    class="z-20 absolute top-1/2 right-2 sm:right-4 transform -translate-y-1/2 font-extrabold  bg-opacity-50 text-white p-2 sm:p-3 rounded-full hover:bg-opacity-80"
+    class="z-20 absolute top-1/2 right-2 sm:right-4 transform -translate-y-1/2 font-extrabold bg-black/40 hover:bg-black/60 text-white p-2 sm:p-3 rounded-full"
+    aria-label="Next slide"
   >
     ❯
   </button>
@@ -69,68 +71,14 @@
 <!-- scrolling effect -->
 
 
-<section class="overflow-hidden bg-blue-400">
-  <div class="relative w-full">
-    <div class="flex animate-marquee whitespace-nowrap  pause-on-hover">
-      <!-- First set of links -->
-      <div class="flex items-center gap-x-12 px-4 py-2 text-sm sm:text-base w-max">
-        <a href="#" class="inline-block text-white hover:underline ">
-          📢 Welcome to RTC Inter College Admission Portal!
-        </a>
-        <a href="#" class="inline-block text-white hover:underline">
-          ✨ Admission Open for Class 11 & 12 – Apply Now!
-        </a>
-        <a href="#" class="inline-block text-white hover:underline">
-          📚 Quality Education | 🏫 Modern Campus | 👨‍🏫 Experienced Faculty
-        </a>
-      </div>
 
-      <!-- Duplicate set of links for seamless scrolling -->
-      <div class="flex items-center gap-x-12 px-4 py-2 text-sm sm:text-base w-max">
-        <a href="#" class="inline-block text-white hover:underline">
-          📢 Welcome to RTC Inter College Admission Portal!
-        </a>
-        <a href="#" class="inline-block text-white hover:underline">
-          ✨ Admission Open for Class 11 & 12 – Apply Now!
-        </a>
-        <a href="#" class="inline-block text-white hover:underline">
-          📚 Quality Education | 🏫 Modern Campus | 👨‍🏫 Experienced Faculty
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<style>
-  @keyframes marquee {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-
-  .animate-marquee {
-    animation: marquee 20s linear infinite;
-  }
-
-  @media (max-width: 768px) {
-    .animate-marquee {
-      animation-duration: 30s;
-    }
-    /* .pause-on-hover:hover {
-  animation-play-state: paused;
-} */
-  }
-</style>
 
 
 <!-- Principal Section -->
 <section class="mt-10 px-4 max-w-screen-lg mx-auto flex flex-col lg:flex-row items-start gap-8">
   <!-- Principal Image -->
   <div class="w-full max-w-xs mx-auto lg:mx-0">
-    <img src="https://placehold.co/400x400" alt="Principal" class="rounded-lg shadow-2xl w-full">
+    <img src="./images/principal.png" alt="Principal" class="rounded-lg shadow-2xl w-full overflow-hidden h-96 ">
   </div>
 
   <!-- Message & Navigation -->
@@ -151,7 +99,7 @@
       </p>
     </div>
 
-    <!-- Navigation Dots -->
+    <!-- Navigation Dots
     <div class="flex justify-center lg:justify-center mt-4 gap-6">
       <a href="index.php" class="hover:scale-125 transition group flex flex-col items-center">
         <div class="bg-gray-950 rounded-full size-4 border-red-600 border-2"></div>
@@ -166,7 +114,7 @@
         <p class="hidden group-hover:block text-xs mt-1 text-gray-700">Take Admission</p>
       </a>
     </div>
-  </div>
+  </div> -->
 </section>
 
 
@@ -174,9 +122,9 @@
 <hr class="text-[2px] text-blue-700 mt-4">
 <!-- Importent Notice -->
 <div  style="background-image: url('./images/infr2.jpg');width: 100%;background-size: cover; height:auto;background-repeat: no-repeat; background-attachment: fixed; background-position: center center; ">
- <section class="mt-10 shadow-2xs lg:w-3xl lg:mx-auto md:w-2xl md:mx-auto sm:w-1xl sm:mx-auto p-2" >
+ <section class="mt-10 shadow-2xs max-w-full mx-auto p-2" >
   
-  <h2 class="text-3xl font-bold text-center mb-4 text-red-600 hover:text-red-800">Importent notice</h2>
+  <h2 class="text-3xl font-bold text-center mb-4 text-rose-600 hover:text-red-800">Importent notice</h2>
   
   <style>
     
@@ -206,10 +154,10 @@
 <!-- Flex Row of Two Notice Boards -->
 <div class="flex flex-col lg:flex-row md:flex-row gap-8">
   <!-- Notice Board 1 -->
-  <div class="flex flex-col lg:flex-row md:flex-row gap-8">
+
 
   <!-- Notice Box 1 - Slower -->
-  <div class="h-60 w-80 mx-auto overflow-hidden bg-gray-100 border rounded-lg relative  ">
+  <div class="h-60 w-[80%] mx-auto overflow-hidden bg-gray-100 border rounded-lg relative  ">
     <div class="scroll-slow pause-on-hover space-y-2 p-4">
       <p>📢 Notice 1: Welcome to our college!</p><hr>
       <p>📢 Notice 2: Annual sports meet is on 15th August.</p><hr>
@@ -230,31 +178,10 @@
     </div>
   </div>
 
-  <!-- Notice Box 2 - Faster -->
-  <div class="h-60 w-80  mx-auto overflow-hidden bg-gray-100 border rounded-lg relative">
-    <div class="scroll-fast pause-on-hover space-y-2 p-4">
-      <p>📢 Notice A: Admissions are now open.</p><hr>
-      <p>📢 Notice B: Attend the orientation on Monday.</p><hr>
-      <p>📢 Notice C: Collect your ID cards.</p><hr>
-      <p>📢 Notice D: Library membership drive ongoing.</p><hr>
-      <p>📢 Notice E: Career counseling this Friday.</p><hr>
-      <p>📢 Notice F: PTM scheduled next week.</p><hr>
-      <p>📢 Notice G: Cultural fest auditions open.</p><hr>
-      
-      <!-- Repeat for infinite effect -->
-      <p>📢 Notice A: Admissions are now open.</p><hr>
-      <p>📢 Notice B: Attend the orientation on Monday.</p><hr>
-      <p>📢 Notice C: Collect your ID cards.</p><hr>
-      <p>📢 Notice D: Library membership drive ongoing.</p><hr>
-      <p>📢 Notice E: Career counseling this Friday.</p><hr>
-      <p>📢 Notice F: PTM scheduled next week.</p><hr>
-      <p>📢 Notice G: Cultural fest auditions open.</p>
-    </div>
-  </div>
+  
+</div>
 
-</div>
-</div>
-<div>
+<!-- <div>
   <h2 class="text-center text-4xl font-bold text-red-700 hover:text-pink-700 transition-colors">Full Guidelines for Student</h2>
   <div class="flex flex-col lg:flex-row md:flex-row gap-8 ">
   <div class="flex items-center justify-center text-center p-4 bg-gradient-to-br from-blue-300 to-blue-200 rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
@@ -274,7 +201,7 @@
   </div>
 </div> 
 
-</div>
+</div> -->
 
 
 </section>
@@ -292,7 +219,7 @@
 </div>
 
     <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8">
-      <!-- ARTS -->
+  <!-- ARTS -->
       <div class="bg-white shadow-xl rounded-2xl p-8 border-l-4 border-blue-500 hover:shadow-2xl transition-all duration-300">
         <div class="flex items-center mb-6">
           <i class="fas fa-palette text-3xl text-blue-600 mr-4"></i>
@@ -388,16 +315,24 @@
 
   <div class="text-center mb-8">
     <h2 class="text-3xl sm:text-4xl font-bold text-yellow-700 hover:text-pink-700">
-      Reviews from Our Students
+      Let's Know About Us   
     </h2>
   </div>
-
-  <div class=" ">
-  <div id="reviewsWrapper" class="flex flex-wrap justify-center">
-    <!-- Reviews will be injected by JavaScript -->
+<div>
+  <ul class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <li class="text-2xl bg-green-300 text-slate-900 px-10 py-5 rounded-l text-center"><a href="about.php"><i class="fa-solid fa-face-smile"></i> About us </a></li>
+    <li class="text-2xl bg-lime-300 text-slate-900 px-10 py-5 rounded-lg text-center"><a href="about.php#vision&mission"><i class="fa-solid fa-hand-holding-heart"></i>Mission</a></li>
+    <li class="text-2xl bg-rose-300 text-slate-900 px-10 py-5 rounded-lg text-center"><a href="about.php#vision&mission"><i class="fa-solid fa-eye"></i>Vision</a></li>
+  </ul>
   </div>
-</div>
 
+
+  <!-- <div class=" ">
+  <div id="reviewsWrapper" class="flex flex-wrap justify-center">
+   reviews section by js
+  </div>
+</div> -->
+ 
 </section>
 
 

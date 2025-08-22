@@ -65,11 +65,11 @@
 
         <!-- About -->
         <li class="group relative dropdown">
-          <a href="about.php" class="px-4 py-2 hover:text-yellow-400  flex items-center justify-between">
+          <a href="about.php" class="px-4 py-2 hover:text-yellow-400 flex items-center justify-between">
             About
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="about.php#vision&mission" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Vision & Mission</a></li>
             <li><a href="about.php#history" class="block px-4 py-2 hover:bg-[#005599] transition-colors">History</a></li>
             <li><a href="about.php#management" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Management</a></li>
@@ -85,7 +85,7 @@
             Admission
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="admission.php#online-admission" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Online Admission</a></li>
             <li><a href="admission.php#eligibility" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Eligibility</a></li>
             <li><a href="admission.php#documents" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Documents Required</a></li>
@@ -99,7 +99,7 @@
             Faculty Members
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="faculties.php#science" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Science Faculty</a></li>
             <li><a href="faculties.php#commerce" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Commerce Faculty</a></li>
             <li><a href="faculties.php#arts" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Arts Faculty</a></li>
@@ -109,11 +109,11 @@
 
         <!-- Syllabus -->
         <li class="group relative dropdown">
-          <a href="syllabus.php" class="px-4 py-2 hover:text-yellow-400  flex items-center justify-between">
+          <a href="syllabus.php" class="px-4 py-2 hover:text-yellow-400 flex items-center justify-between">
             Syllabus
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="syllabus.php#science" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Science</a></li>
             <li><a href="syllabus.php#commerce" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Commerce</a></li>
             <li><a href="syllabus.php#arts" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Arts</a></li>
@@ -122,11 +122,11 @@
 
         <!-- Sports -->
         <li class="group relative dropdown">
-          <a href="sports.php" class="px-4 py-2 hover:text-yellow-400  flex items-center justify-between">
+          <a href="sports.php" class="px-4 py-2 hover:text-yellow-400 flex items-center justify-between">
             Sports
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="sports.php#annual-sports" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Annual Sports</a></li>
             <li><a href="sports.php#achievements" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Achievements</a></li>
             <li><a href="sports.php#join-club" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Join Sports Club</a></li>
@@ -135,11 +135,11 @@
 
         <!-- Gallery -->
         <li class="group relative dropdown">
-          <a href="gallery.php" class="px-4 py-2 hover:text-yellow-400  flex items-center justify-between">
+          <a href="gallery.php" class="px-4 py-2 hover:text-yellow-400 flex items-center justify-between">
             Gallery
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="gallery.php#photos" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Photos</a></li>
             <li><a href="gallery.php#videos" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Videos</a></li>
             <li><a href="gallery.php#events" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Events</a></li>
@@ -148,11 +148,11 @@
 
         <!-- Notices -->
         <li class="group relative dropdown">
-          <a href="notice.php" class="px-4 py-2 hover:text-yellow-400  flex items-center justify-between">
+          <a href="notice.php" class="px-4 py-2 hover:text-yellow-400 flex items-center justify-between">
             Notices
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="notice.php#exam-notice" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Exam Notice</a></li>
             <li><a href="notice.php#holiday-notice" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Holiday Notice</a></li>
             <li><a href="notice.php#circular" class="block px-4 py-2 hover:bg-[#005599] transition-colors">New Circular</a></li>
@@ -161,11 +161,11 @@
 
         <!-- Contact -->
         <li class="group relative dropdown">
-          <a href="contact.php" class="px-4 py-2 hover:text-yellow-400  flex items-center justify-between">
+          <a href="contact.php" class="px-4 py-2 hover:text-yellow-400 flex items-center justify-between">
             Contact
             <i class="fas fa-chevron-down ml-1 text-xs md:hidden transition-transform duration-300"></i>
           </a>
-          <ul class="dropdown-menu  hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto md:static md:bg-transparent md:shadow-none md:min-w-full">
+          <ul class="dropdown-menu md:absolute hidden md:group-hover:block bg-[#003366] mt-0 md:mt-2 min-w-[180px] rounded shadow-lg text-sm z-50 left-0 md:left-auto">
             <li><a href="contact.php#call-us" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Call Us</a></li>
             <li><a href="contact.php#email-us" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Email Us</a></li>
             <li><a href="contact.php#map" class="block px-4 py-2 hover:bg-[#005599] transition-colors">Map Location</a></li>
@@ -177,9 +177,6 @@
     </nav>
 
   </section>
-
-
-
 
   
   <!-- Main Section Placeholder -->

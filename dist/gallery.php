@@ -92,9 +92,32 @@ include("header.php");
             <p class="text-gray-600 text-sm">Modern computer facilities for digital learning</p>
           </div>
         </div>
+         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="./images/planningTree.jpeg" alt="Computer Lab" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-blue-700 mb-2">Natural Environment</h3>
+            <p class="text-gray-600 text-sm">Grow with Nature</p>
+          </div>
+        </div>
         
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
           <img src="./images/sportsHero.jpg" alt="">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-blue-700 mb-2">Sports Ground</h3>
+            <p class="text-gray-600 text-sm">Spacious grounds for sports and activities</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="./images/playGround.jpeg" alt=""class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-blue-700 mb-2">Sports Ground</h3>
+            <p class="text-gray-600 text-sm">Spacious grounds for sports and activities</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="./images/parat.jpeg" alt="" class="w-full h-48 object-cover">
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Sports Ground</h3>
             <p class="text-gray-600 text-sm">Spacious grounds for sports and activities</p>
@@ -174,7 +197,7 @@ include("header.php");
           </div>
         </div>
         
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+        <a href="gallery.php#cultural"><div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
           <div class="w-full h-48 bg-gradient-to-br from-orange-400 to-red-600 flex items-center justify-center">
             <i class="fas fa-music text-6xl text-white opacity-50"></i>
           </div>
@@ -184,6 +207,7 @@ include("header.php");
             <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded mt-2">Cultural Event</span>
           </div>
         </div>
+        </a>
         
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
           <div class="w-full h-48 bg-gradient-to-br from-pink-400 to-rose-600 flex items-center justify-center">
@@ -235,6 +259,39 @@ include("header.php");
 
     </div>
   </div>
+</section>
+
+<section id="cultural">
+  <h2 class="text-4xl text-center bg-gradient-to-bl from-rose-900 to-pink-400  transform bg-clip-text text-transparent font-extrabold mb-5">Cultural Program</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+ <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="./images/Firewell.jpeg" alt="College Campus" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-blue-700 mb-2">FireWell</h3>
+            <p class="text-gray-600 text-sm">Beautiful campus with modern infrastructure</p>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="./images/Firewell2.jpeg" alt="College Campus" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-blue-700 mb-2">Campus View</h3>
+            <p class="text-gray-600 text-sm">Beautiful campus with modern infrastructure</p>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="./images/FirewellTeachers.jpeg" alt="College Campus" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-blue-700 mb-2">Campus View</h3>
+            <p class="text-gray-600 text-sm">Beautiful campus with modern infrastructure</p>
+          </div>
+        </div>
+
+
+  </div>
+
+
+
 </section>
 
 <?php

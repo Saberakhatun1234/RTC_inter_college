@@ -1,7 +1,7 @@
 <?php
 include("header.php")
 ?>
-<section class=" bg-gradient-to-br from-blue-100 to-blue-200 ">
+<section class=" bg-gradient-to-br from-blue-100 to-blue-200 mb-8">
   <div class="max-w-full mx-auto text-center">
     <h2 class="text-3xl md:text-4xl font-extrabold text-blue-900 mb-6">Our Faculties</h2>
     <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 text-left text-lg font-medium text-blue-800 mb-12">
@@ -19,6 +19,26 @@ include("header.php")
       </li>
     </ul>
     <p class="text-2xl font-semibold text-rose-900  text-center">👨‍🏫 Our team of highly qualified teachers is committed to providing a supportive environment for students to excel in their studies.</p>
+  </div>
+</section>
+
+<section class="flex justify-center">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="bg-white rounded-xl shadow p-4 flex flex-col justify-center items-center">
+      <img src="./images/chairMan.png" alt="" class="size-40 rounded-full">
+      <span>chairman</span>
+      <p>Mr. Ram Tahal Choudhary <a href="contact.php#message"><span><i class="fa-solid fa-paper-plane" class="text-4xl"></i></span></a></p>
+    </div>
+    <div class="bg-white rounded-xl shadow p-4 flex flex-col justify-center items-center">
+      <img src="./images/principal.png" alt="" class="size-40 rounded-full">
+      <span>principal</span>
+      <p>Mr. Vivek Kumar <span><a href="contact.php#message"><i class="fa-solid fa-paper-plane" class="text-4xl"></i></span></a></p>
+    </div>
+    <div class="bg-white rounded-xl shadow p-4 flex flex-col justify-center items-center">
+      <img src="./images/Treasures.png" alt="" class="size-40 rounded-full">
+      <span>Treasurer</span>
+      <p>Dr. R.N.Mahto <span><a href="contact.php#message"><i class="fa-solid fa-paper-plane" class="text-4xl"></i></span></a></p>
+    </div>
   </div>
 </section>
 

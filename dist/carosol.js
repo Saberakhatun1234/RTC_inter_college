@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     caption: document.getElementById("carousel-caption"),
     nextBtn: document.getElementById("nextBtn"),
     prevBtn: document.getElementById("prevBtn"),
-    wrapper: document.getElementById("reviewsWrapper"),
+    // wrapper: document.getElementById("reviewsWrapper"),
   };
 
   // Carousel slides
@@ -19,99 +19,119 @@ document.addEventListener('DOMContentLoaded', function() {
       img: "./images/infr3.jpg",
       text: "Empowering Education in Every Corner",
     },
+    {
+      img: "./images/infrHero.jpg",
+      text: "Your Path to Success Starts Here",
+    }
   ];
 
   let currentIndex = 0;
+  let isAnimating = false;
 
-  function showImage(index) {
-    if (dom.carouselImage && dom.caption) {
+  function setOpacity(el, value) {
+    if (!el) return;
+    el.style.opacity = value;
+  }
+
+  function swapSlide(index) {
+    if (!dom.carouselImage || !dom.caption) return;
+    // fade out
+    setOpacity(dom.carouselImage, 0);
+    setOpacity(dom.caption, 0);
+
+    // after fade-out, swap src/text, then fade-in
+    setTimeout(() => {
       dom.carouselImage.src = slides[index].img;
       dom.caption.textContent = slides[index].text;
-    }
+      setOpacity(dom.carouselImage, 1);
+      setOpacity(dom.caption, 1);
+    }, 300);
   }
 
   function nextImage() {
+    if (isAnimating) return; isAnimating = true;
     currentIndex = (currentIndex + 1) % slides.length;
-    showImage(currentIndex);
+    swapSlide(currentIndex);
+    setTimeout(() => { isAnimating = false; }, 700);
   }
 
   function prevImage() {
+    if (isAnimating) return; isAnimating = true;
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    showImage(currentIndex);
+    swapSlide(currentIndex);
+    setTimeout(() => { isAnimating = false; }, 700);
   }
 
   let autoSlide = setInterval(nextImage, 5000);
 
-  dom.nextBtn.addEventListener("click", (e) => {
-    nextImage();
-    resetAutoSlide();
-  });
-
-  dom.prevBtn.addEventListener("click", () => {
-    prevImage();
-    resetAutoSlide();
-  });
+  if (dom.nextBtn) dom.nextBtn.addEventListener("click", () => { nextImage(); resetAutoSlide(); });
+  if (dom.prevBtn) dom.prevBtn.addEventListener("click", () => { prevImage(); resetAutoSlide(); });
 
   function resetAutoSlide() {
     clearInterval(autoSlide);
     autoSlide = setInterval(nextImage, 5000);
   }
 
-  // Initialize the carousel
-  showImage(currentIndex);
-
-  // Enhanced Student Reviews Section
-  if (dom.wrapper) {
-    const reviews = [
-      { name: "Umesh Deghoria", reviews: "This college helped me achieve my goals." },
-      { name: "Anjali Kumari", reviews: "Excellent faculty and environment!" },
-      { name: "Ravi Singh", reviews: "Great experience overall, highly recommend." },
-      { name: "Pooja Sinha", reviews: "Wonderful campus and very supportive staff." },
-      { name: "Amit Raj", reviews: "Best in Ranchi, hands down." }
-    ];
-
-    let currentIndexReviews = 0;
-
-    function renderReviews(index) {
-      dom.wrapper.innerHTML = '';
-
-      const getIndex = i => (i + reviews.length) % reviews.length;
-
-      const indices = [
-        getIndex(index - 1), // left
-        getIndex(index),     // center
-        getIndex(index + 1)  // right
-      ];
-
-      indices.forEach((i, pos) => {
-        const review = reviews[i];
-        const baseStyle = "w-full sm:w-1/3 p-4 transform transition-all duration-700 ease-in-out";
-
-        let extraStyle = "";
-        if (pos === 1) {
-          extraStyle = "z-20 scale-105";
-        } else {
-          extraStyle = "z-10 scale-95 opacity-80";
-        }
-
-        const card = document.createElement('div');
-        card.className = `${baseStyle} ${extraStyle}`;
-        card.innerHTML = `
-          <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-            <p class="text-red-700 text-sm italic">"${review.reviews}"</p>
-            <h4 class="mt-4 font-bold text-indigo-700">${review.name}</h4>
-          </div>
-        `;
-        dom.wrapper.appendChild(card);
-      });
-    }
-
-    function nextReview() {
-      currentIndexReviews = (currentIndexReviews + 1) % reviews.length;
-      renderReviews(currentIndexReviews);
-    }
-
-    renderReviews(currentIndexReviews);
-    let autoSlideReviews = setInterval(nextReview, 4000);
+  // Initialize the carousel with visible slide
+  if (dom.carouselImage && dom.caption) {
+    dom.carouselImage.src = slides[currentIndex].img;
+    dom.caption.textContent = slides[currentIndex].text;
+    setOpacity(dom.carouselImage, 1);
+    setOpacity(dom.caption, 1);
   }
+
+//   // Enhanced Student Reviews Section
+//   if (dom.wrapper) {
+//     const reviews = [
+//       { name: "Umesh Deghoria", reviews: "This college helped me achieve my goals." },
+//       { name: "Anjali Kumari", reviews: "Excellent faculty and environment!" },
+//       { name: "Ravi Singh", reviews: "Great experience overall, highly recommend." },
+//       { name: "Pooja Sinha", reviews: "Wonderful campus and very supportive staff." },
+//       { name: "Amit Raj", reviews: "Best in Ranchi, hands down." }
+//     ];
+
+//     let currentIndexReviews = 0;
+
+//     function renderReviews(index) {
+//       dom.wrapper.innerHTML = '';
+
+//       const getIndex = i => (i + reviews.length) % reviews.length;
+
+//       const indices = [
+//         getIndex(index - 1), // left
+//         getIndex(index),     // center
+//         getIndex(index + 1)  // right
+//       ];
+
+//       indices.forEach((i, pos) => {
+//         const review = reviews[i];
+//         const baseStyle = "w-full sm:w-1/3 p-4 transform transition-all duration-700 ease-in-out";
+
+//         let extraStyle = "";
+//         if (pos === 1) {
+//           extraStyle = "z-20 scale-105";
+//         } else {
+//           extraStyle = "z-10 scale-95 opacity-80";
+//         }
+
+//         const card = document.createElement('div');
+//         card.className = `${baseStyle} ${extraStyle}`;
+//         card.innerHTML = `
+//           <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+//             <p class="text-red-700 text-sm italic">"${review.reviews}"</p>
+//             <h4 class="mt-4 font-bold text-indigo-700">${review.name}</h4>
+//           </div>
+//         `;
+//         dom.wrapper.appendChild(card);
+//       });
+//     }
+
+//     function nextReview() {
+//       currentIndexReviews = (currentIndexReviews + 1) % reviews.length;
+//       renderReviews(currentIndexReviews);
+//     }
+
+//     renderReviews(currentIndexReviews);
+//     let autoSlideReviews = setInterval(nextReview, 4000);
+//   }
 });
