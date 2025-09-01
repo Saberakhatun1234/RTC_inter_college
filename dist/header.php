@@ -20,7 +20,7 @@
           <p><i class="fa-solid fa-phone mr-1"></i> 123-456-789 -9</p>
         </div>
         <div class="grid sm:grid-cols-2 items-center gap-4 pr-4 mt-2 sm:mt-0">
-          <p class="cursor-pointer hover:underline">Login</p>
+          <p class="cursor-pointer hover:underline"><a href="login.php">Login</a></p>
           <div class="flex gap-3 pr-5">
             <a href="https://facebook.com" class="hover:scale-125 transition"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="https://linkedin.com" class="hover:scale-125 transition"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -37,7 +37,7 @@
       </div>
       <div>
         <p class="text-3xl md:text-5xl font-bold text-blue-700 hover:text-blue-900 transition-colors duration-300 text-center sm:text-left">
-          WELCOME TO RTC INTER COLLEGE
+ RTC INTER COLLEGE
         </p>
       </div>
     </div>
