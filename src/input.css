@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 /* Custom styles for mobile navigation */
 @media (max-width: 767px) {
   #nav-links {

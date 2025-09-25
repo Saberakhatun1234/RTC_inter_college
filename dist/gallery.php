@@ -13,56 +13,84 @@ include("header.php");
     </p>
 
     <!-- Photos Section -->
+
+
+
     <div id="photos" class="mb-16">
       <h2 class="text-3xl font-bold text-blue-700 mb-8 text-center">Photo Gallery</h2>
-      
+      <!-- Lightbox -->
+       <div class="relative ">
+<div id="lightbox" class="absolute w-full  bg-opacity-90 hidden items-center justify-center ">
+  <!-- Close -->
+  <button id="closeBtn" class="absolute top-0 text-red-700 text-4xl font-extrabold z-60">&times;</button>
+  
+  <!-- Prev -->
+  <button id="prevBtn" class="absolute left-2 text-black text-4xl z-60">&#10094;</button>
+
+  <!-- Main Image -->
+  
+  <img id="lightboxImg" src="" class="min-h-screen w-screen rounded-lg shadow-lg fixed mx-auto " alt="Expanded Image">
+
+  
+   <!-- Next Button -->
+    <button id="nextBtn" class="absolute right-2 text-black text-4xl  z-60">&#10095;</button>
+</div>
+</div>
+</div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Campus Photos -->
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/infr3.jpg" alt="College Campus" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold text-blue-700 mb-2">Campus View</h3>
-            <p class="text-gray-600 text-sm">Beautiful campus with modern infrastructure</p>
-          </div>
-        </div>
-        
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/infr2.jpg" alt="Infrastructure" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold text-blue-700 mb-2">Modern Infrastructure</h3>
-            <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
-          </div>
-        </div>
+  <img src="./images/infr3.jpg" alt="College Campus" 
+       class="w-full h-48 object-cover cursor-pointer gallery-img">
+  <div class="p-4">
+    <h3 class="text-lg font-semibold text-blue-700 mb-2">Campus View</h3>
+    <p class="text-gray-600 text-sm">Beautiful campus with modern infrastructure</p>
+  </div>
+</div>
+
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+  <img src="./images/infr2.jpg" alt="Infrastructure" 
+       class="w-full h-48 object-cover cursor-pointer gallery-img">
+  <div class="p-4">
+    <h3 class="text-lg font-semibold text-blue-700 mb-2">Modern Infrastructure</h3>
+    <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
+  </div>
+</div>
+
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+  <img src="./images/building1.jpg" alt="Building" 
+       class="w-full h-48 object-cover cursor-pointer gallery-img">
+  <div class="p-4">
+    <h3 class="text-lg font-semibold text-blue-700 mb-2">Modern Infrastructure</h3>
+    <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
+  </div>
+</div>
+
+
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow ">
-          <img src="./images/building1.jpg" alt="building" class="w-full h-48 object-cover">
+          <img src="./images/building2.jpg" alt="building" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="tetx-lg font-semibold text-blue-700 mb-2 ">Mordern Infrastructure</h3>
             <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
         </div>
         </div>
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow ">
-          <img src="./images/building2.jpg" alt="building" class="w-full h-48 object-cover">
+          <img src="./images/building3.jpg" alt="building" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="tetx-lg font-semibold text-blue-700 mb-2 ">Mordern Infrastructure</h3>
             <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
         </div>
         </div>
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow ">
-          <img src="./images/building3.jpg" alt="building" class="w-full h-48 object-cover">
+          <img src="./images/building4.jpg" alt="building" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="tetx-lg font-semibold text-blue-700 mb-2 ">Mordern Infrastructure</h3>
             <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
         </div>
         </div>
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow ">
-          <img src="./images/building4.jpg" alt="building" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="tetx-lg font-semibold text-blue-700 mb-2 ">Mordern Infrastructure</h3>
-            <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
-        </div>
-        </div>
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow ">
-          <img src="./images/schoolBus.jpg" alt="building" class="w-full h-48 object-cover">
+          <img src="./images/schoolBus.jpg" alt="building" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="tetx-lg font-semibold text-blue-700 mb-2 ">Mordern Infrastructure</h3>
             <p class="text-gray-600 text-sm">State-of-the-art facilities for students</p>
@@ -70,7 +98,7 @@ include("header.php");
         </div>
 
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/chemistryLab.jpg" alt="Laboratory" class="w-full h-48 object-cover">
+          <img src="./images/chemistryLab.jpg" alt="Laboratory" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Science Lab</h3>
             <p class="text-gray-600 text-sm">Well-equipped laboratories for practical learning</p>
@@ -78,7 +106,7 @@ include("header.php");
         </div>
         
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/library.jpg" alt="Library" class="w-full h-48 object-cover">
+          <img src="./images/library.jpg" alt="Library" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Library</h3>
             <p class="text-gray-600 text-sm">Extensive collection of books and study materials</p>
@@ -86,14 +114,14 @@ include("header.php");
         </div>
         
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/computerLab.jpg" alt="Computer Lab" class="w-full h-48 object-cover">
+          <img src="./images/computerLab.jpg" alt="Computer Lab" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Computer Lab</h3>
             <p class="text-gray-600 text-sm">Modern computer facilities for digital learning</p>
           </div>
         </div>
          <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/planningTree.jpeg" alt="Computer Lab" class="w-full h-48 object-cover">
+          <img src="./images/planningTree.jpeg" alt="Computer Lab" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Natural Environment</h3>
             <p class="text-gray-600 text-sm">Grow with Nature</p>
@@ -101,7 +129,7 @@ include("header.php");
         </div>
         
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/sportsHero.jpg" alt="">
+          <img src="./images/sportsHero.jpg" alt="" class="w-full h-48 object-cover  gallery-img" >
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Sports Ground</h3>
             <p class="text-gray-600 text-sm">Spacious grounds for sports and activities</p>
@@ -109,7 +137,7 @@ include("header.php");
         </div>
         
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/playGround.jpeg" alt=""class="w-full h-48 object-cover">
+          <img src="./images/playGround.jpeg" alt=""class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Sports Ground</h3>
             <p class="text-gray-600 text-sm">Spacious grounds for sports and activities</p>
@@ -117,7 +145,7 @@ include("header.php");
         </div>
         
         <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-          <img src="./images/parat.jpeg" alt="" class="w-full h-48 object-cover">
+          <img src="./images/parat.jpeg" alt="" class="w-full h-48 object-cover  gallery-img">
           <div class="p-4">
             <h3 class="text-lg font-semibold text-blue-700 mb-2">Sports Ground</h3>
             <p class="text-gray-600 text-sm">Spacious grounds for sports and activities</p>
@@ -126,6 +154,10 @@ include("header.php");
       </div>
     </div>
 
+
+
+
+    
     <!-- Videos Section -->
     <div id="videos" class="mb-16">
       <h2 class="text-3xl font-bold text-blue-700 mb-8 text-center">Video Gallery</h2>
@@ -293,6 +325,65 @@ include("header.php");
 
 
 </section>
+
+<script>
+  const images = document.querySelectorAll(".gallery-img");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightboxImg");
+  const closeBtn = document.getElementById("closeBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+
+  let currentIndex = 0;
+
+
+  // Open on click
+  images.forEach((img, index) => {
+    img.addEventListener("click", () => {
+      currentIndex = index;
+      setTimeout(() => {
+      showImage();
+      lightbox.classList.remove("hidden");
+      lightbox.classList.add("flex");
+      }, 2000);
+    });
+  });
+
+  function showImage() {
+
+    lightboxImg.src = images[currentIndex].src;
+  }
+  
+
+
+
+  // Close
+  closeBtn.addEventListener("click", () => {
+    lightbox.classList.add("hidden");
+    lightbox.classList.remove("flex");
+  });
+
+  // Prev
+  prevBtn.addEventListener("click", () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage();
+  });
+
+  // Next
+  nextBtn.addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage();
+  });
+
+  // Close when clicking background
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+      lightbox.classList.add("hidden");
+      lightbox.classList.remove("flex");
+    }
+  });
+</script>
+
 
 <?php
 include("ImpLinks.php");

@@ -1,38 +1,55 @@
-document.addEventListener("DOMContentLoaded", function () {
+
+document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.getElementById("nav-toggle");
   const navLinks = document.getElementById("nav-links");
-  const dropdowns = document.querySelectorAll('.dropdown');
+  const dropdowns = document.querySelectorAll(".dropdown");
 
-  // Mobile menu toggle
-  if(navToggle && navLinks){
-    navToggle.addEventListener("click", () => {
-      navLinks.classList.toggle("hidden");
-      navLinks.classList.toggle("flex");
-      navLinks.classList.toggle("flex-col");
-      
-      const icon = navToggle.querySelector("i");
-      icon.classList.toggle("fa-x");
-      icon.classList.toggle("fa-bars");
+  // Helper: toggle mobile menu
+  function toggleMenu() {
+    navLinks.classList.toggle("hidden");
+    navLinks.classList.toggle("flex");
+    navLinks.classList.toggle("flex-col");
+
+    const icon = navToggle.querySelector("i");
+    icon.classList.toggle("fa-x");
+    icon.classList.toggle("fa-bars");
+
+    // Update aria-expanded for accessibility
+    const expanded =
+      navToggle.getAttribute("aria-expanded") === "true" || false;
+    navToggle.setAttribute("aria-expanded", !expanded);
+  }
+
+  // Helper: close all dropdowns
+  function closeAllDropdowns() {
+    dropdowns.forEach((dropdown) => {
+      dropdown.querySelector(".dropdown-menu").classList.remove("show");
+      dropdown.classList.remove("active");
     });
   }
 
-  // Mobile dropdown functionality
-  dropdowns.forEach(dropdown => {
-    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-    const dropdownLink = dropdown.querySelector('a');
-    
-    // For mobile devices, handle click events
-    dropdownLink.addEventListener('click', (e) => {
-      if (window.innerWidth < 768) { // Mobile breakpoint
+  // Mobile menu toggle
+  if (navToggle && navLinks) {
+    navToggle.setAttribute("aria-expanded", "false");
+    navToggle.addEventListener("click", toggleMenu);
+  }
+
+  // Dropdown functionality (mobile only)
+  dropdowns.forEach((dropdown) => {
+    const dropdownMenu = dropdown.querySelector(".dropdown-menu");
+    const dropdownLink = dropdown.querySelector("a");
+
+    dropdownLink.addEventListener("click", (e) => {
+      if (window.innerWidth < 768) {
         e.preventDefault();
-        dropdownMenu.classList.toggle('show');
-        dropdown.classList.toggle('active');
-        
-        // Close other dropdowns
-        dropdowns.forEach(otherDropdown => {
-          if (otherDropdown !== dropdown) {
-            otherDropdown.querySelector('.dropdown-menu').classList.remove('show');
-            otherDropdown.classList.remove('active');
+        dropdownMenu.classList.toggle("show");
+        dropdown.classList.toggle("active");
+
+        // Close others
+        dropdowns.forEach((other) => {
+          if (other !== dropdown) {
+            other.querySelector(".dropdown-menu").classList.remove("show");
+            other.classList.remove("active");
           }
         });
       }
@@ -40,51 +57,44 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Close dropdowns when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('.dropdown')) {
-      dropdowns.forEach(dropdown => {
-        dropdown.querySelector('.dropdown-menu').classList.remove('show');
-        dropdown.classList.remove('active');
-      });
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".dropdown")) {
+      closeAllDropdowns();
     }
   });
 
-  // Handle window resize
-  window.addEventListener('resize', () => {
-    if (window.innerWidth >= 768) {
-      // Reset mobile menu state on desktop
-      navLinks.classList.remove('flex', 'flex-col');
-      navLinks.classList.add('hidden');
-      navLinks.classList.add('md:flex');
-      
-      const icon = navToggle.querySelector("i");
-      icon.classList.remove("fa-x");
-      icon.classList.add("fa-bars");
-      
-      // Hide all dropdowns on desktop resize
-      dropdowns.forEach(dropdown => {
-        dropdown.querySelector('.dropdown-menu').classList.remove('show');
-        dropdown.classList.remove('active');
-      });
-    }
+  // Throttle resize event
+  let resizeTimeout;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      if (window.innerWidth >= 768 && navLinks) {
+        // Reset menu state
+        navLinks.classList.remove("flex", "flex-col");
+        navLinks.classList.add("hidden", "md:flex");
+
+        const icon = navToggle.querySelector("i");
+        icon.classList.remove("fa-x");
+        icon.classList.add("fa-bars");
+
+        navToggle.setAttribute("aria-expanded", "false");
+        closeAllDropdowns();
+      }
+    }, 400); // debounce delay
   });
 
   // Smooth scrolling for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", (e) => {
+      const target = document.querySelector(anchor.getAttribute("href"));
       if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
+        e.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     });
   });
+
+
+
+  
 });
-
-
-
-
-
