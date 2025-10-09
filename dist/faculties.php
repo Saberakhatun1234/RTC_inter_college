@@ -1,10 +1,23 @@
 <?php
 include("header.php")
 ?>
+<div class="relative">
+  <img src="./images/rtcheader.png" alt="heroAdmission" class="w-full h-72 object-cover mt-8">
+
+  <!-- Breadcrumb text -->
+ 
+  <div class="absolute top-1/2 left-2 ">
+      <h1 class="  text-4xl font-bold text-white ">RTC Inter College </h1>
+      <a href="index.php" class="hover:underline text-white">Home</a> / 
+    <a href="faculties.php" class="hover:underline">Faculties</a>
+</div>
+</div>
+
+
 <section class=" bg-gradient-to-br from-blue-100 to-blue-200 mb-8">
   <div class="max-w-full mx-auto text-center">
     <h2 class="text-3xl md:text-4xl font-extrabold text-blue-900 mb-6">Our Faculties</h2>
-    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 text-left text-lg font-medium text-blue-800 mb-12">
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 text-left text-lg font-medium text-blue-800 mb-10">
       <li class="bg-white rounded-xl shadow p-4 hover:bg-blue-50 transition-all duration-300">
         👨‍🏫 Highly Qualified Teachers
       </li>
@@ -23,37 +36,37 @@ include("header.php")
 </section>
 
 <section class="flex justify-center">
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
     <div class="bg-white rounded-xl shadow p-4 flex flex-col justify-center items-center">
       <img src="./images/chairMan.png" alt="" class="size-40 rounded-full">
       <span>chairman</span>
-      <p>Mr. Ram Tahal Choudhary <a href="contact.php#message"><span><i class="fa-solid fa-paper-plane" class="text-4xl"></i></span></a></p>
+      <p>Mr. Ram Tahal Choudhary </p>
     </div>
     <div class="bg-white rounded-xl shadow p-4 flex flex-col justify-center items-center">
       <img src="./images/principal.png" alt="" class="size-40 rounded-full">
       <span>principal</span>
-      <p>Mr. Vivek Kumar <span><a href="contact.php#message"><i class="fa-solid fa-paper-plane" class="text-4xl"></i></span></a></p>
+      <p>Mr. Vivek Kumar </p>
     </div>
     <div class="bg-white rounded-xl shadow p-4 flex flex-col justify-center items-center">
       <img src="./images/Treasures.png" alt="" class="size-40 rounded-full">
       <span>Treasurer</span>
-      <p>Dr. R.N.Mahto <span><a href="contact.php#message"><i class="fa-solid fa-paper-plane" class="text-4xl"></i></span></a></p>
+      <p>Dr. R.N.Mahto </p>
     </div>
   </div>
 </section>
 
 
-<section class="sm:p-4 md:p-40 lg:p-40">
- <div class="max-w-full max-auto " id="science">
+<section class="sm-p-4 md:p-40" >
+ <div class="max-w-full mx-auto " id="science">
     <h2 class=" md:text-4xl font-bold text-center text-blue-700 mb-10">
       👨‍🏫 Faculty List Of Science – RTC Inter College
     </h2>
    
-    <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 mb-8 justify-around">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+    <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around  mb-8">
+        <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Dr. Rakesh Kumar</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Physics </span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > HOD & Lacturer</span></p>
@@ -62,10 +75,10 @@ include("header.php")
 </div>
 </div>
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+         <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" >Ms. Priya Sinha</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Chemistry </span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
@@ -74,10 +87,10 @@ include("header.php")
 </div>
 </div>
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around  mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+         <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Anil Raj</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Mathematics</span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >  Lacturer</span></p>
@@ -87,10 +100,10 @@ include("header.php")
 </div>
 
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around  mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full ">
+      <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Rahul Thakur</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Computer</span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > Lacturer</span></p>
@@ -99,10 +112,10 @@ include("header.php")
 </div>
 </div>
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around  mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+         <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" >Mrs. Nisha Verma</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Biology</span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
@@ -118,10 +131,10 @@ include("header.php")
     </h2>
     <div class="mb-10">
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+         <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Rajeev Singh</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >English</span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
@@ -130,10 +143,10 @@ include("header.php")
 </div>
 </div>
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+         <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Ms. Sweta Kumari</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Hindi </span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >Lacturer</span></p>
@@ -142,10 +155,10 @@ include("header.php")
 </div>
 </div>
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+         <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mrs. Meena Dey</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Physics Ed.</span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > Lacturer</span></p>
@@ -161,10 +174,10 @@ include("header.php")
     </h2>
     <div class="mb-10">
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around  mb-8">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full">
+         <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Mr. Manoj Tiwari</span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Commerce </span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" >NET Lacturer</span></p>
@@ -173,10 +186,10 @@ include("header.php")
 </div>
 </div>
 <div class="overflow-x-hidden rounded-lg shadow-md grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-around mb-8 ">
-        <div>
-            <img src="https://Placehold.co/200x200 " alt="Image 1" class="size-40 rounded-full mb-8">
+        <div class="px-6 py-2">
+            <img src="./images/placeHoldTeacher.jpg " alt="Image 1" class="size-40 rounded-full">
      </div>
-     <div>
+     <div class="px-6 flex flex-col justify-center">
         <p><span class="font-extrabold ">Name:</span><span class="font-semibold" > Dr.Anjali Das </span></p>
          <p><span class="font-extrabold ">Department:</span><span class="font-semibold" >Economics</span></p>
           <p><span class="font-extrabold ">Designation:</span><span class="font-semibold" > Senior Lacturer</span></p>
@@ -197,7 +210,7 @@ include("header.php")
     </h2>
 
     <div class="overflow-x-auto rounded-lg shadow-md">
-      <table class="max-w-full  bg-white border border-gray-200">
+      <table class="min-w-full mx-auto  bg-white border border-gray-200">
         <thead class="bg-blue-600 text-white text-left text-sm md:text-base">
           <tr>
             <th class="px-4 py-3 border">S.No</th>

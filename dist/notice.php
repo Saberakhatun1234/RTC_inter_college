@@ -3,7 +3,18 @@ include("header.php")
 ?>
 
 <section class="relative  overflow-hidden rounded-xl mb-10">
-  <img src="./images/notice.jpg" alt="notice" class="w-full max-h-40">
+    
+   <div class="relative">
+  <img src="./images/rtcheader.png" alt="heroAdmission" class="w-full h-72 object-cover mt-8">
+
+  <!-- Breadcrumb text -->
+ 
+  <div class="absolute top-1/2 left-2 ">
+      <h1 class="  md:text-4xl text-bold font-bold text-white ">RTC Inter College </h1>
+      <a href="index.php" class="hover:underline text-white">Home</a> / 
+    <a href="notice.php" class="hover:underline">Notice</a>
+</div>
+</div>
 </section>
 <section class="grid sm:grid-cols-1 md:grid-cols-[3fr_1fr] gap-8 sm:p-1 md:p-8">
   <!-- Notices (75%) -->

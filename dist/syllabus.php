@@ -1,6 +1,19 @@
 <?php
 include("header.php");
 ?>
+   
+   <div class="relative">
+  <img src="./images/rtcheader.png" alt="heroAdmission" class="w-full h-72 object-cover mt-8">
+
+  <!-- Breadcrumb text -->
+ 
+  <div class="absolute top-1/2 left-2 ">
+      <h1 class="  md:text-4xl text-bold font-bold text-white ">RTC Inter College </h1>
+      <a href="index.php" class="hover:underline text-white">Home</a> / 
+    <a href="syllabus.php" class="hover:underline">syllabus</a>
+</div>
+</div>
+
 
 <section class="bg-gray-50 py-16 px-4 sm:px-8">
   <div class="max-w-6xl mx-auto">

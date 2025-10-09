@@ -2,12 +2,23 @@
 include("header.php");
 ?>
 
-<div class=" mx-auto w-full ">
-<section id="admission" class="relative  h-auto ">
-    <div class="w-full h-auto ">
-        <img src="./images/sportsHero.jpg" alt="heroAdmission" class="w-full h-96 object-cover">
-        <h1 class="text-4xl text-blue-700 hover:text-blue-900 text-center font-bold absolute top-6 w-full">Welcome to Admissions Portal of RTC Inter College</h1>
-        <p class="font-bold text-gray-950 hover:text-gray-800 p-5 mt-10 ">At RTC Inter College, we believe that education is the foundation of a bright and empowered future. Our Admission Portal is your gateway to join a dynamic academic environment where tradition meets innovation.
+<div  class=" mx-auto w-full ">
+<section class="relative  h-auto ">
+    <div class="w-full h-auto relative">
+      
+   <div class="relative">
+  <img src="./images/rtcheader.png" alt="heroAdmission" class="w-full h-72 object-cover mt-8">
+
+  <!-- Breadcrumb text -->
+ 
+  <div class="absolute top-1/2 left-2 ">
+      <h1 class="  md:text-4xl text-bold font-bold text-white ">RTC Inter College </h1>
+      <a href="index.php" class="hover:underline text-white">Home</a> / 
+    <a href="admission.php" class="hover:underline">Admission</a>
+</div>
+</div>
+       
+        <p class=" text-gray-950 hover:text-gray-800 p-5 mt-10 ">At RTC Inter College, we believe that education is the foundation of a bright and empowered future. Our Admission Portal is your gateway to join a dynamic academic environment where tradition meets innovation.
 
 Whether you're a curious learner stepping into your intermediate journey or a driven student aiming for academic excellence, we welcome you to be a part of our ever-growing family.
 
@@ -30,20 +41,20 @@ With experienced faculty, state-of-the-art infrastructure, and a student-centric
       
       <!-- Students Counter -->
       <div class="bg-white p-6 rounded shadow hover:scale-105 transition">
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Total Students</h3>
-        <p id="counter-students" class="text-5xl font-extrabold text-blue-800">0</p>
+        <h3 class="text-xl  text-gray-700 mb-2">Total Students</h3>
+        <p id="counter-students" class="text-5xl text-blue-800">0</p>
       </div>
       
       <!-- Faculties Counter -->
       <div class="bg-white p-6 rounded shadow hover:scale-105 transition">
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Total Faculties</h3>
-        <p id="counter-faculties" class="text-5xl font-extrabold text-purple-800">0</p>
+        <h3 class="text-xl  text-gray-700 mb-2">Total Faculties</h3>
+        <p id="counter-faculties" class="text-5xl text-purple-800">0</p>
       </div>
       
       <!-- Courses Counter -->
       <div class="bg-white p-6 rounded shadow hover:scale-105 transition">
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Total Courses</h3>
-        <p id="counter-courses" class="text-5xl font-extrabold text-green-800">0</p>
+        <h3 class="text-xl  text-gray-700 mb-2">Total Courses</h3>
+        <p id="counter-courses" class="text-5xl  text-green-800">0</p>
       </div>
 
     </div>
